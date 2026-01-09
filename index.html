@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="zh-Hans">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>中华人民共和国中央人民政府门户网站（港澳琼）</title>
+  <link rel="stylesheet" href="assets/css/legacy.css" />
+  <script defer src="assets/js/legacy.js"></script>
+</head>
+<body>
+
+  <div class="topbar">
+    <div class="container">
+      <div class="brand">
+        <img class="emblem" src="assets/img/emblem.svg" alt="国徽" />
+        <img class="flag" src="assets/img/flag-prc.svg" alt="国旗" />
+        <div>
+          <div class="title">中华人民共和国中央人民政府门户网站（港澳琼）</div>
+          <div class="subtitle">信息发布 · 政策文件 · 应急管理 · 港澳琼工作</div>
+        </div>
+      </div>
+      <div class="tools">
+        <span class="pill" id="today">—</span>
+        <input id="topQ" type="search" placeholder="站内检索" />
+        <button id="topSearchBtn" type="button">检索</button>
+        <span class="pill">繁体</span>
+        <span class="pill">English</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="navbar">
+    <div class="container">
+      <a href="index.html">首页</a>
+      <a href="news.html">新闻公告</a>
+      <a href="documents.html">政策文件</a>
+      <a href="emergency.html">应急与特别措施</a>
+      <a href="regions.html">港澳琼工作</a>
+      <a href="organizations.html">机构设置</a>
+      <a href="search.html">统一检索</a>
+    </div>
+  </div>
+
+  <div class="banner">
+    <div class="container">
+      <div class="hero">
+        <h2>要闻</h2>
+        <img src="assets/img/banner.svg" alt="横幅" />
+        <div class="tags" style="margin-top:8px">
+          <span class="tag red">重要通知</span>
+          <span class="tag">会议部署</span>
+          <span class="tag">政策解读</span>
+          <span class="tag">安全提示</span>
+        </div>
+      </div>
+      <div class="ticker">
+        <div style="margin-bottom:6px;">
+          <span class="label">滚动</span>
+          <span class="marquee"><span>关于进一步规范信息发布工作的通知｜关于加强重点领域风险防控工作的若干措施｜港澳琼地区公共安全工作规范（试行）</span></span>
+        </div>
+        <div class="panel" style="border-color:var(--line);">
+          <div class="hd"><span class="ttl">专题</span><a class="more" href="regions.html">更多</a></div>
+          <div class="bd">
+            <ul class="list">
+              <li><a href="emergency.html">应急管理与特别措施发布</a><span class="date">入口</span></li>
+              <li><a href="documents.html">政策文件与规范性文件</a><span class="date">入口</span></li>
+              <li><a href="news.html">通知公告与要闻发布</a><span class="date">入口</span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="main">
+    <div class="container">
+      <div class="grid3">
+
+        <!-- 左：新闻 -->
+        <div class="panel">
+          <div class="hd">
+            <span class="ttl">新闻公告</span>
+            <a class="more" href="news.html">更多&gt;&gt;</a>
+          </div>
+          <div class="bd">
+            <ul class="list" id="homeNews"></ul>
+          </div>
+        </div>
+
+        <!-- 中：应急 -->
+        <div class="panel">
+          <div class="hd">
+            <span class="ttl">应急与特别措施</span>
+            <a class="more" href="emergency.html">更多&gt;&gt;</a>
+          </div>
+          <div class="bd">
+            <div class="tags" style="margin-bottom:8px">
+              <span class="tag red">重要</span>
+              <span class="tag">通告</span>
+              <span class="tag">提示</span>
+              <span class="tag">公告</span>
+            </div>
+            <ul class="list" id="homeEmergency"></ul>
+          </div>
+        </div>
+
+        <!-- 右：文件 -->
+        <div class="panel">
+          <div class="hd">
+            <span class="ttl">政策文件（节选）</span>
+            <a class="more" href="documents.html">更多&gt;&gt;</a>
+          </div>
+          <div class="bd">
+            <table class="table">
+              <thead>
+                <tr>
+                  <th style="width:90px">日期</th>
+                  <th>标题</th>
+                  <th style="width:120px">发布</th>
+                  <th style="width:60px">格式</th>
+                </tr>
+              </thead>
+              <tbody id="homeDocs"></tbody>
+            </table>
+            <div style="margin-top:8px; font-size:12px; color:var(--muted);">
+              说明：文件下载链接为示例，可替换为实际 PDF/DOC 地址。
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div style="height:10px"></div>
+
+      <div class="panel">
+        <div class="hd">
+          <span class="ttl">港澳琼工作（栏目聚合）</span>
+          <a class="more" href="regions.html">进入&gt;&gt;</a>
+        </div>
+        <div class="bd">
+          <div class="grid3" style="grid-template-columns:1fr 1fr 1fr;">
+            <div class="panel" style="border-color:var(--line2)">
+              <div class="hd"><span class="ttl">港澳工作</span><span class="more">动态</span></div>
+              <div class="bd">
+                <ul class="list">
+                  <li><a href="regions.html#hk">香港</a><span class="date">入口</span></li>
+                  <li><a href="regions.html#mo">澳门</a><span class="date">入口</span></li>
+                  <li><a href="regions.html#coord">协调机制</a><span class="date">入口</span></li>
+                </ul>
+              </div>
+            </div>
+            <div class="panel" style="border-color:var(--line2)">
+              <div class="hd"><span class="ttl">海南工作</span><span class="more">动态</span></div>
+              <div class="bd">
+                <ul class="list">
+                  <li><a href="regions.html#hn">海南</a><span class="date">入口</span></li>
+                  <li><a href="regions.html#public">公共服务</a><span class="date">入口</span></li>
+                  <li><a href="regions.html#order">秩序维护</a><span class="date">入口</span></li>
+                </ul>
+              </div>
+            </div>
+            <div class="panel" style="border-color:var(--line2)">
+              <div class="hd"><span class="ttl">信息发布</span><span class="more">汇总</span></div>
+              <div class="bd">
+                <ul class="list">
+                  <li><a href="news.html">通知公告</a><span class="date">列表</span></li>
+                  <li><a href="documents.html">政策文件</a><span class="date">列表</span></li>
+                  <li><a href="search.html">统一检索</a><span class="date">入口</span></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div style="margin-top:8px; color:var(--muted); font-size:12px;">
+            本站提供政务信息发布与栏目汇总，页面内容以发布为准。
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="footer">
+    <div class="container">
+      <div>
+        <div style="font-weight:800; color:#222">主办单位：国务院办公厅（示例）</div>
+        <div>承办单位：有关部门（示例）｜技术支持：政务服务平台（示例）</div>
+        <div>ICP备案号：京ICP备xxxxxxxx号｜公安备案号：京公网安备xxxxxxxx号</div>
+      </div>
+      <div class="links">
+        <div style="font-weight:800; margin-bottom:6px; color:#222">相关链接</div>
+        <a href="organizations.html">机构设置</a>
+        <a href="documents.html">政策文件</a>
+        <a href="emergency.html">应急措施</a>
+        <a href="search.html">统一检索</a>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
