@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="280" height="180" viewBox="0 0 28 18" role="img" aria-label="国旗">
+  <rect width="28" height="18" fill="#d40000"/>
+  <!-- big star -->
+  <g transform="translate(5,5) scale(1.1)">
+    <path d="M0-2.2L0.7-0.7 2.3-0.7 1 0.2 1.5 1.7 0 0.8 -1.5 1.7 -1 0.2 -2.3-0.7 -0.7-0.7Z" fill="#ffd000"/>
+  </g>
+  <!-- four small stars -->
+  <g fill="#ffd000">
+    <g transform="translate(9,3) scale(0.55) rotate(18)">
+      <path d="M0-2.2L0.7-0.7 2.3-0.7 1 0.2 1.5 1.7 0 0.8 -1.5 1.7 -1 0.2 -2.3-0.7 -0.7-0.7Z"/>
+    </g>
+    <g transform="translate(10.5,5.5) scale(0.55) rotate(-10)">
+      <path d="M0-2.2L0.7-0.7 2.3-0.7 1 0.2 1.5 1.7 0 0.8 -1.5 1.7 -1 0.2 -2.3-0.7 -0.7-0.7Z"/>
+    </g>
+    <g transform="translate(10.2,8.2) scale(0.55) rotate(10)">
+      <path d="M0-2.2L0.7-0.7 2.3-0.7 1 0.2 1.5 1.7 0 0.8 -1.5 1.7 -1 0.2 -2.3-0.7 -0.7-0.7Z"/>
+    </g>
+    <g transform="translate(8.5,10.2) scale(0.55) rotate(25)">
+      <path d="M0-2.2L0.7-0.7 2.3-0.7 1 0.2 1.5 1.7 0 0.8 -1.5 1.7 -1 0.2 -2.3-0.7 -0.7-0.7Z"/>
+    </g>
+  </g>
+</svg>
